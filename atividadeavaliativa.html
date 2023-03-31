@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
+<link rel="stylesheet" href="ativavl.css">
     <h1>Cadastro de Clientes e Produtos</h1>
-
 </head>
 
 <body>
@@ -16,9 +16,9 @@
     </ol>
 
     <form>
-        <fieldset>
+        <fieldset id="t1">
             <legend>Informaçoes pessoais</legend>
-            <table border="1">
+            <table border="1" id="f5">
                 <tr>
                     <td> <label for="text">Nome:</label></td>
                     <td> <input type="text" name="nome" id="nome"><br></td>
@@ -36,11 +36,11 @@
                     <td><input type="password"></td>
                 </tr>
             </table>
-    </form>
+    
     </fieldset>
-    <fieldset>
+    <fieldset id="f1">
         <legend>Informaçoes do produto</legend>
-        <table border="1">
+        <table border="1" id="f4">
             <tr>
                 <td> <label for="text">Nome:</label></td>
                 <td> <input type="text" name="nome" id="nome"><br></td>
@@ -50,7 +50,7 @@
                 <td><input type="text" name="preço" id="preço"><br></td>
             </tr>
             <tr>
-                <td> <label for="categoria">categoria:</label></td>
+                <td> <label for="categoria">Categoria:</label></td>
                 <td><label for="iphone">Iphone:</label>
                 <input type="checkbox" name="iphone" id="iphone">
                 <label for="Sansung">Sansung:</label>
@@ -59,13 +59,23 @@
                 <input type="checkbox" name="Xiaomi" id="Xiaomi:">
             </td>
             </tr>
-            <fieldset>
-                <legend>Páginas dos produto</legend>
-                
+        </table>
+    </fieldset>
+    <table >
+            <fieldset id="f2">
+              <legend>Páginas dos produto</legend>
+                <li><a href="">Iphone</a></li>
+                <li>  <a href="">Sansung</a></li>
+                <li> <a href="">Xiaomi</a></li>
 
             </fieldset>
         </table>
-    </fieldset>
+ <input type="submit" value="cadastrar">
+ <input type="reset" value="limpar">
+</form>
 </body>
+<footer id="f3">
+    <p &copy>Exercicios exclusivos para alunos do 1°INFO® 2023</p>
+</footer>
 
 </html>

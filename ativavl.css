@@ -1,0 +1,23 @@
+    body{
+        background-color: aquamarine;
+        color: blue;
+    }
+    #t1 {
+        border-radius: 10px;
+background-color: antiquewhite;
+    }
+    #f1{
+        background-color: aliceblue;
+    }
+    #f2{
+        background-color: bisque;
+    }
+    #f3{
+        color: orange;
+    }
+    #f4{
+        background-color: antiquewhite;
+    }
+    #f5{
+        background-color: rgb(12, 226, 226);
+    }
